@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: #ffffff;
+}
+.container {
+    width: 375px;
+}
+
+/* Site-header styles */
+.site-header {
+    margin-top: 80px;
+}
+h1 {
+    width: 95%;
+    color: hsl(300, 43%, 22%);
+    margin: 0 auto;
+    text-align: center;
+}
+.site-header p {
+    color: hsl(300, 43%, 22%);
+    margin: 30px 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* site-reviews styles */
+.site-reviews {
+    width: 90%;
+    margin: 0 auto;
+}
+.review {
+    background-color: #f7f2f8;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.image-container {
+    position: relative;
+    left: 35%;
+    top: 20%;
+}
+h2 {
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* site-review-card styles */
+.site-review-card-container {
+    width: 90%;
+    margin: 40px auto;
+}
+.site-review-card {
+    background-color: #511f50;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card-img {
+    position: relative;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    top: 20px;
+    left: 10px;   
+}
+h3 {
+    padding-top: 10px;
+    padding-left: 100px;
+}
