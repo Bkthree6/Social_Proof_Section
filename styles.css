@@ -63,14 +63,32 @@ h2 {
     border-radius: 10px;
 }
 .card-img {
-    position: relative;
-    width: 70px;
-    border-radius: 50%;
+    display: inline;
     float: left;
-    top: 20px;
-    left: 10px;   
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 40px; 
+    margin-left: 30px;
 }
 h3 {
-    padding-top: 10px;
-    padding-left: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 105px;
+    line-height: 150%;
+}
+.card-name {
+    color:  hsl(300, 24%, 96%);
+    padding-top: 45px;
+}
+.card-buyer {
+    color: hsl(333, 40%, 45%);
+    margin-bottom: 35px;
+}
+.card-para {
+    width: 85%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: hsl(300, 24%, 96%); 
+    padding-left: 30px;
 }
