@@ -104,11 +104,87 @@ h3 {
     .column {
         float: left;
         width: 50%;
-        margin-bottom: 20%;
     }
     .row:after {
         content: "";
         display: table;
         clear: both;
       }
+      .site-review-card-container {
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          margin: 10px 5px;
+      }
+      .site-review-card {
+        margin: 5px;
+        width: 600px;
+      }
+}
+/* Media queries for table - (width of 1024 pixels) */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+    /* site-header styles */
+    h1 {
+        width: 60%;
+        text-align: left;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .site-header p {
+        text-align: left;
+    }
+
+    /* site-review styles */
+    .site-reviews {
+        margin-top: 80px;
+    }
+    .review {
+        height: 50px;
+        width: 400px;
+    }
+    .image-container {
+        position: relative;
+        display: inline;
+        top: 30%;
+        left: 30px;
+    }
+    h2 {
+        position: relative;
+        display: inline;
+        top: 30%;
+        left: 50px;
+        font-size: 12px;
+    }
+    .second-review {
+        margin-left: 30px;
+    }
+    .third-review {
+        margin-left: 60px;
+    }
+
+    /* site-review-card styles */
+    .site-review-card-container {
+        margin-bottom: 10%;
+    }
+    .site-review-card {
+        height: 230px;
+        width: 320px;
+        margin-right: 20px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    .card-para {
+        font-size: 12px;
+        width: 90%;
+    }
+    .card-2 {
+        margin-top: 20px;
+    }
+    .card-3 {
+        margin-top: 40px;
+    }
 }
