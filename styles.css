@@ -7,6 +7,9 @@ body {
     font-family: 'Spartan', sans-serif;
     background-color: #ffffff;
     margin: 0 auto;
+    background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-position: left top, bottom right;
 }
 .container {
     width: 375px;
